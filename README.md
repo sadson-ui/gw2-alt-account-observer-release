@@ -24,7 +24,7 @@ Alt Account Observer is a Nexus addon for **Guild Wars 2**. It brings item searc
 
 ## Setup
 
-Create an API key in the [ArenaNet API Key Manager](https://account.arena.net/applications) and add it in the Alt Account Observer settings. You can add multiple keys and assign an optional custom name to each account.
+Create an API key in the [ArenaNet API Key Manager](https://account.arena.net/applications) and add it in the Alt Account Observer settings. You can add multiple keys and assign an optional custom name to each account
 
 Required permissions for the main account search:
 
@@ -34,33 +34,33 @@ Required permissions for the main account search:
 
 Optional permissions enable additional data:
 
-- `builds` — detects the active elite specialization for characters.
-- `unlocks` — enables legendary armory data where available.
-- `wallet` — enables account wallet currencies and Astral Acclaim.
-- `progression` — enables Wizard's Vault objectives and rewards.
-- `tradingpost` — enables Trading Post pickup data and open transactions.
+- `builds` — detects the active elite specialization for characters
+- `unlocks` — enables legendary armory data where available
+- `wallet` — enables account wallet currencies and Astral Acclaim
+- `progression` — enables Wizard's Vault objectives and rewards
+- `tradingpost` — enables Trading Post pickup data and open transactions
 
-The public Trading Post market listings endpoint does not require an API key. The addon requests listings only for relevant item IDs, rather than downloading the full listings catalogue.
+The public Trading Post market listings endpoint does not require an API key. The addon requests listings only for relevant item IDs, rather than downloading the full listings catalogue
 
 ## Using refresh buttons
 
-- The main **Refresh** action updates the selected account's main data. **Refresh all** updates the configured accounts.
-- The Wallet refresh updates only the selected account's wallet.
-- The Wizard's Vault refresh updates only the selected account's Vault data. In All Accounts, its refresh action updates Vault data for all configured accounts.
-- The Trading Post refresh updates pickup and transaction data. Its All Accounts refresh updates pickup data for each configured account.
-- Market listings are fetched when requested and are limited to items shown in Trading Post data.
+- The main **Refresh** action updates the selected account's main data. **Refresh all** updates the configured accounts
+- The Wallet refresh updates only the selected account's wallet
+- The Wizard's Vault refresh updates only the selected account's Vault data. In All Accounts, its refresh action updates Vault data for all configured accounts
+- The Trading Post refresh updates pickup and transaction data. Its All Accounts refresh updates pickup data for each configured account
+- Market listings are fetched when requested and are limited to items shown in Trading Post data
 
 The `/v2/commerce/delivery` endpoint provides items and coins ready to collect from the Trading Post. It does **not** provide access to the regular in-game mailbox.
 
 ## Privacy and local data
 
-API keys and cached data are stored locally by the addon. Do not share your settings file because it may contain API keys.
+API keys and cached data are stored locally by the addon. Do not share your settings file because it may contain API keys
 
 ## Credits
 
 - Author: **[utz]**
-- Built on the [Nexus](https://raidcore.gg/Nexus) addon framework by Raidcore.
-- Account and game data are provided by the official [Guild Wars 2 API](https://wiki.guildwars2.com/wiki/API:Main).
+- Built on the [Nexus](https://raidcore.gg/Nexus) addon framework by Raidcore
+- Account and game data are provided by the official [Guild Wars 2 API](https://wiki.guildwars2.com/wiki/API:Main)
 
 > Readme created by AI. Addon creator was too lazy for it.
 
